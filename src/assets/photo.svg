@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351.31 351.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6aa6c;
+      }
+
+      .cls-2 {
+        fill: #6ba99e;
+      }
+
+      .cls-3 {
+        fill: #fee0b2;
+      }
+    </style>
+  </defs>
+  <g id="Symbols">
+    <rect class="cls-3" x="0" y="0" width="175.65" height="175.65" transform="translate(0 175.65) rotate(-90)"/>
+    <circle class="cls-3" cx="263.48" cy="87.83" r="87.83" transform="translate(64.04 281.11) rotate(-62.54)"/>
+    <circle class="cls-1" cx="87.83" cy="263.48" r="87.83" transform="translate(-160.58 139.27) rotate(-45)"/>
+    <circle class="cls-2" cx="263.48" cy="263.48" r="87.83"/>
+  </g>
+</svg>

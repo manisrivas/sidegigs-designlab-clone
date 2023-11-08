@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351.31 351.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6aa6c;
+      }
+
+      .cls-2 {
+        fill: #ed6934;
+      }
+
+      .cls-3 {
+        fill: #6ba99e;
+      }
+
+      .cls-4 {
+        fill: #078c98;
+      }
+
+      .cls-5 {
+        fill: #e73a22;
+      }
+    </style>
+  </defs>
+  <g id="Symbols">
+    <path class="cls-3" d="m0,175.65C0,78.64,78.64,0,175.65,0H0v175.65Z"/>
+    <path class="cls-5" d="m0,175.65h175.65V0C78.64,0,0,78.64,0,175.65Z"/>
+    <rect class="cls-1" x="175.65" y="0" width="175.65" height="175.65"/>
+    <polygon class="cls-2" points="0 351.31 0 175.65 175.65 351.31 0 351.31"/>
+    <polygon class="cls-4" points="0 175.65 175.65 175.65 175.65 351.31 0 175.65"/>
+    <polygon class="cls-1" points="175.65 175.65 351.31 175.65 175.65 351.31 175.65 175.65"/>
+    <polygon class="cls-5" points="351.31 175.65 351.31 351.31 175.65 351.31 351.31 175.65"/>
+  </g>
+</svg>

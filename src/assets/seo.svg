@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351.31 351.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #037298;
+      }
+
+      .cls-2 {
+        fill: #078c98;
+      }
+
+      .cls-3 {
+        fill: #fee0b2;
+      }
+
+      .cls-4 {
+        fill: #e73a22;
+      }
+    </style>
+  </defs>
+  <g id="Symbols">
+    <path class="cls-3" d="m175.65,175.65C78.64,175.65,0,97.01,0,0v175.65h175.65Z"/>
+    <path class="cls-1" d="m175.65,175.65V0H0c0,97.01,78.64,175.65,175.65,175.65Z"/>
+    <path class="cls-2" d="m351.31,175.65c-97.01,0-175.65-78.64-175.65-175.65v175.65h175.65Z"/>
+    <path class="cls-2" d="m351.31,175.65V0h-175.65c0,97.01,78.64,175.65,175.65,175.65Z"/>
+    <path class="cls-4" d="m175.65,351.31C78.64,351.31,0,272.66,0,175.65v175.65h175.65Z"/>
+    <path class="cls-3" d="m175.65,351.31v-175.65H0c0,97.01,78.64,175.65,175.65,175.65Z"/>
+    <rect class="cls-1" x="175.65" y="175.65" width="175.65" height="175.65" transform="translate(0 526.96) rotate(-90)"/>
+  </g>
+</svg>

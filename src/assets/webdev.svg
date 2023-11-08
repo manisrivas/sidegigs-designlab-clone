@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351.31 351.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #037298;
+      }
+
+      .cls-2 {
+        fill: #ed6934;
+      }
+
+      .cls-3 {
+        fill: #6ba99e;
+      }
+
+      .cls-4 {
+        fill: #078c98;
+      }
+
+      .cls-5 {
+        fill: #e73a22;
+      }
+    </style>
+  </defs>
+  <g id="Symbols">
+    <path class="cls-2" d="m0,351.31c0-97.01,78.64-175.65,175.65-175.65H0v175.65Z"/>
+    <path class="cls-4" d="m0,351.31h175.65v-175.65C78.64,175.65,0,254.3,0,351.31Z"/>
+    <polygon class="cls-2" points="351.31 175.65 175.65 175.65 351.31 0 351.31 175.65"/>
+    <polygon class="cls-1" points="175.65 175.65 175.65 0 351.31 0 175.65 175.65"/>
+    <polygon class="cls-3" points="175.65 0 175.65 175.65 0 0 175.65 0"/>
+    <polygon class="cls-5" points="175.65 175.65 0 175.65 0 0 175.65 175.65"/>
+    <path class="cls-3" d="m351.31,175.65c0,97.01-78.64,175.65-175.65,175.65h175.65v-175.65Z"/>
+    <path class="cls-4" d="m351.31,175.65h-175.65v175.65c97.01,0,175.65-78.64,175.65-175.65Z"/>
+  </g>
+</svg>
