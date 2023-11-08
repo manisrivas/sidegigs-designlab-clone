@@ -27,19 +27,19 @@ export const footerLinks = [
     links: [
       {
         name: "Company",
-        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/",
+        link: "https://sidegigs-designlab-clone.vercel.app/",
       },
       {
         name: "About Us",
-        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/about-us",
+        link: "https://sidegigs-designlab-clone.vercel.app/about-us",
       },
       {
         name: "Career",
-        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/career",
+        link: "https://sidegigs-designlab-clone.vercel.app/career",
       },
       {
         name: "Products",
-        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/products",
+        link: "https://sidegigs-designlab-clone.vercel.app/products",
       },
    
     ],
