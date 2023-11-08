@@ -27,19 +27,19 @@ export const footerLinks = [
     links: [
       {
         name: "Company",
-        link: "http://127.0.0.1:5173/web-dev",
+        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/",
       },
       {
         name: "About Us",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/about-us",
       },
       {
         name: "Career",
-        link: "https://www.hoobank.com/create/",
+        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/career",
       },
       {
         name: "Products",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://sidegigs-designlab-clone-pu1jooh64-manisrivas.vercel.app/products",
       },
    
     ],
