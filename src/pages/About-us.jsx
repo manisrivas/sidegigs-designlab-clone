@@ -1,4 +1,8 @@
 import React from 'react';
+import one from '../assets/one.png';
+import two from '../assets/two.png';
+import three from '../assets/three.png';
+import four from '../assets/four.png';
 
 function Aboutus() {
   return (
@@ -73,10 +77,16 @@ function Aboutus() {
         />
         <p className='text-4xl font-bold'>Meet Side gig’s Dream Team</p>
       </div>
+   
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 lg:mx-8 place-content-center">
+    <img src={one} className="w-1/2 md:w-full mx-auto" />
+    <img src={two} className="w-1/2 md:w-full mx-auto" />
+    <img src={three} className="w-1/2 md:w-full mx-auto" />
+    <img src={four} className="w-1/2 md:w-full mx-auto" />
+</div>
 
-      <div id="default-carousel" className="relative" data-carousel="static">
-        {/* Carousel content */}
-      </div>
+
+      
 
       <img
         src='https://sidegigsdesignlab.com/wp-content/uploads/2023/10/Frame-3604.svg'
