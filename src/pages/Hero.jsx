@@ -15,11 +15,11 @@ import eye from '../assets/eye.jpg'
 
 const Hero = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden ">
     <div id="home" className={`flex md:flex-row flex-col min-h-[86vh] mb-0 bg-[#000b3f]`}>
 
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className="flex flex-row justify between items-center w-full ">
+        <div className="flex flex-row justify between items-center w-full ml-[8%]">
           <h1 className="text-white font-outfit text-7xl ">Every great <br /> design begins <br /> with a story</h1>
         </div>
       </div>
@@ -30,31 +30,56 @@ const Hero = () => {
 
     </div>
   <div className="bg-[#9cadff]">
-    <div className="  px-[10vw] flex flex-col items-center ">
-      <p className="text-center text-5xl font-bold mb-[5vh] mt-[2%]">WHO WE ARE</p>
-      <p className="text-center text-4xl mb-[8vh]">We're a remote tribe of creatives, transforming startups<br /> into digital wonders, one project at a time</p>
-     <a href="/Contactus"><button  className="p-2 bg-green-300 text-xl font-bold">GET A FREE CONSULTATION <span className="text-3xl">&rarr;</span> </button></a> 
-      <p className="text-5xl font-bold mt-[15vh] mb-[3vh]">THE SERVICE WE PROVIDE FOR YOU</p>
-    </div>
+  <div className="w-full px-4 md:px-10 lg:px-20 xl:px-32 2xl:px-64 flex flex-col items-center">
+    <p className="text-center text-1xl md:text-3xl lg:text-4xl font-bold mb-3vh mt-[2%]">
+        WHO WE ARE
+    </p>
+    <p className="text-center text-2xl md:text-3xl lg:text-4xl mb-6vh">
+        We're a remote tribe of creatives, transforming startups into digital wonders, one project at a time
+    </p>
+    <a href="/Contactus">
+    <button className="bg-green-300 text-xl md:text-2xl font-bold p-2 md:p-3 lg:p-4 mt-4">
+            GET A FREE CONSULTATION <span className="text-1xl">&rarr;</span>
+        </button>
+    </a>
+    <p className="text-3xl md:text-4xl font-bold mt-[5%] mb-3vh">
+        THE SERVICE WE PROVIDE FOR YOU
+    </p>
+</div>
+
 
     <div class=" flex items-center py-[5vh] justify-center lg:min-h-screen ">
       <div class="p-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
          
-          <div class="bg-[#000b3f] rounded-lg  p-4">
-          <img src={webdev} alt="Placeholder Image" class="w-full h-48 rounded-md object-cover"/>
-            <div class="px-1 py-4">
-              <div class="ml-[-1vh]">
-              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 64 65" fill="none"><g clip-path="url(#clip0_37_355)"><path d="M33.3333 43.1666H10.6667C9.95942 43.1666 9.28115 42.8857 8.78105 42.3856C8.28095 41.8855 8 41.2072 8 40.5V13.8333C8 13.126 8.28095 12.4478 8.78105 11.9477C9.28115 11.4476 9.95942 11.1666 10.6667 11.1666H53.3333C54.0406 11.1666 54.7189 11.4476 55.219 11.9477C55.7191 12.4478 56 13.126 56 13.8333V35.1666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18.6667 53.8334H29.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M24 43.1666V53.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M53.3333 56.5L58.6666 51.1667L53.3333 45.8334" stroke="#f06c34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M45.3333 45.8334L40 51.1667L45.3333 56.5" stroke="#f06c34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g><defs><clipPath id="clip0_37_355"><rect width="64" height="64" fill="white" transform="translate(0 0.5)"></rect></clipPath></defs></svg>
-              </div>
-              <p class="text-white text-base">
-               Web Design & development
-              </p>
-            </div>
-            <div class="px-1 py-4">
-              <a href="/web-dev" class="text-[#088c9c] hover:underline">Request a Quote</a>
-            </div>
-          </div>
+        <div class="bg-[#000b3f] rounded-lg p-4 w-full max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
+    <img src={webdev} alt="Placeholder Image" class="w-full h-48 rounded-md object-cover" />
+    <div class="px-1 py-4">
+        <div class="ml-[-1vh]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 64 65" fill="none">
+                <g clip-path="url(#clip0)">
+                    <path d="M33.3333 43.1666H10.6667C9.95942 43.1666 9.28115 42.8857 8.78105 42.3856C8.28095 41.8855 8 41.2072 8 40.5V13.8333C8 13.126 8.28095 12.4478 8.78105 11.9477C9.28115 11.4476 9.95942 11.1666 10.6667 11.1666H53.3333C54.0406 11.1666 54.7189 11.4476 55.219 11.9477C55.7191 12.4478 56 13.126 56 13.8333V35.1666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M18.6667 53.8334H29.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M24 43.1666V53.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M53.3333 56.5L58.6666 51.1667L53.3333 45.8334" stroke="#f06c34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M45.3333 45.8334L40 51.1667L45.3333 56.5" stroke="#f06c34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="64" height="64" fill="white" transform="translate(0 0.5)"></rect>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+        <p class="text-white text-base">
+            Web Design & Development
+        </p>
+    </div>
+    <div class="px-1 py-4">
+        <a href="/web-dev" class="text-[#088c9c] hover:underline">Request a Quote</a>
+    </div>
+</div>
+
           <div class="bg-[#000b3f] rounded-lg p-4">
           <img src={uiux} alt="Placeholder Image" class="w-full h-48 rounded-md object-cover"/>
             <div class="px-1 py-4">
@@ -158,44 +183,53 @@ const Hero = () => {
     </div>
 
     <div className="px-[10vw] bg-blue-200 py-[10vh] ">
-  <p className="text-xl sm:text-2xl font-bold ">WHY WE STARTED SIDE GIGS DESIGN LABS</p> <br />
-  <p className="text-base sm:text-3xl">We’re a team of freelancers who are crazy about creativity and dedicated to delivering top-notch services. We don’t just focus on being budget-friendly; we’re all about giving you incredible value without emptying your wallet. Our secret ingredient? Efficiency. We get your projects done fast and flawlessly.</p>
+  <p className="text-xl sm:text-2xl font-bold xl:text-5xl ">WHY WE STARTED SIDE GIGS DESIGN LABS</p> <br />
+  <p className="text-base sm:text-3xl xl:text-4xl">We’re a team of freelancers who are crazy about creativity and dedicated to delivering top-notch services. We don’t just focus on being budget-friendly; we’re all about giving you incredible value without emptying your wallet. Our secret ingredient? Efficiency. We get your projects done fast and flawlessly.</p>
   <br />
-  <p className="text-base sm:text-3xl">Side Gigs Design Lab was established on October 4th, 2023, by a group of passionate digital enthusiasts. However, we’re not your ordinary creative agency; we’re a vibrant and professional community. Join us for straightforward solutions infused with a touch of innovation and creativity!</p>
+  <p className="text-base sm:text-3xl xl:text-4xl">Side Gigs Design Lab was established on October 4th, 2023, by a group of passionate digital enthusiasts. However, we’re not your ordinary creative agency; we’re a vibrant and professional community. Join us for straightforward solutions infused with a touch of innovation and creativity!</p>
 </div>
 
 <div className="flex flex-col sm:flex-row  px-[10vw] bg-blue-200">
-  <div className="mb-4 sm:mr-4 w-full sm:w-1/2">
-    <p className="font-bold text-3xl sm:text-3xl">HOW WE WORK?</p>
-    <p className="font-semibold text-2xl sm:text-2xl">Our approach thrives on four guiding principles: Simplicity, Functionality, the Art of Side Gigs, and the Power of Partnership.</p>
-    <p className="mt-2 text-xl sm:text-2xl"><span className="text-3xl">&rarr;</span> Simplicity Rules</p>
-    <p className="text-xl pl-4 sm:text-2xl pl-6">We Keep Things Clear And Elegant</p>
-    <p className="mt-2 text-xl sm:text-2xl"><span className="text-3xl">&rarr;</span> Crafting Form, Function, And Side Gigs</p>
-    <p className="text-xl pl-4 sm:text-2xl pl-6">Stylish & Smart Designs, Side Gigs Ignite Innovation</p>
-    <p className="mt-2 text-xl sm:text-2xl"><span className="text-3xl">&rarr;</span> Unleashing Creativity Beyond</p>
-    <p className="text-xl pl-4 sm:text-2xl pl-6">Our Personal Design And Development Ventures Ignite Innovation</p>
-    <p className="mt-2 text-xl sm:text-2xl"><span className="text-3xl">&rarr;</span> Collaborative Partnerships Drive Success</p>
-    <p className="text-xl pl-4 sm:text-2xl pl-6">Together, We Solve & Create</p>
-  </div>
-  <div className="w-full sm:w-1/2">
-    <img src={eye} alt="how we work" className="mb-4 max-w-full" />
-   <a href="/Contactus"> <button className="p-2 bg-green-300 text-xl sm:text-2xl font-bold mt-2 mx-[8%] mb-5">GET A FREE CONSULTATION <span className="text-3xl">&rarr;</span></button></a>
-  </div>
+<div className="mb-4 sm:mr-4 w-full sm:w-1/2">
+  <p className="font-bold text-xl sm:text-2xl lg:text-3xl xl:text-5xl">HOW WE WORK?</p>
+  <p className="font-semibold text-xl sm:text-2xl lg:text-3xl xl:text-4xl">Our approach thrives on four guiding principles: Simplicity, Functionality, the Art of Side Gigs, and the Power of Partnership.</p>
+  <p className="mt-2 text-xl sm:text-2xl lg:text-3xl xl:text-4xl"><span className="text-2xl lg:text-4xl">&rarr;</span> Simplicity Rules</p>
+  <p className="pl-4 sm:pl-6 xl:text-3xl">We Keep Things Clear And Elegant</p>
+  <p className="mt-2 text-xl sm:text-2xl lg:text-3xl xl:text-4xl"><span className="text-2xl lg:text-4xl">&rarr;</span> Crafting Form, Function, And Side Gigs</p>
+  <p className="pl-4 sm:pl-6 xl:text-3xl">Stylish & Smart Designs, Side Gigs Ignite Innovation</p>
+  <p className="mt-2 text-xl sm:text-2xl lg:text-3xl xl:text-4xl"><span className="text-2xl lg:text-4xl">&rarr;</span> Unleashing Creativity Beyond</p>
+  <p className="pl-4 sm:pl-6 xl:text-3xl">Our Personal Design And Development Ventures Ignite Innovation</p>
+  <p className="mt-2 text-xl sm:text-2xl lg:text-3xl xl:text-4xl"><span className="text-2xl lg:text-4xl">&rarr;</span> Collaborative Partnerships Drive Success</p>
+  <p className="pl-4 sm:pl-6 xl:text-3xl">Together, We Solve & Create</p>
+</div>
+
+<div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 ml-[15%]">
+  <img src={eye} alt="how we work" className="mb-4 max-w-[80%] sm:max-w-full" />
+  <a href="/Contactus">
+    <button className="p-1 bg-green-300 text-xl sm:text-1xl font-bold mt-2 ml-[5%] mb-5">
+      GET A FREE CONSULTATION <span className="text-xl">&rarr;</span>
+    </button>
+  </a>
+</div>
+
+
 </div>
 
 
 <div className="min-h-screen w-screen bg-blue-100 p-8 ">
-  <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl text-center mb-1">HOW WE COLLABORATE</h1>
-  <p className="text-center text-1xl mt-10%">We are a united force of individual creators, startup champions, UI/UX designers, product designers, <br /> front-end and back-end developers, graphic artists, product photographers, and commercial videographers. <br/>Our collaborative spirit knows no bounds as we work harmoniously to transform ideas into impactful <br/>solutions for our valued clients, whether they’re solo creators or innovative startups</p>
+<h1 className="text-2xl lg:text-5xl text-center mb-1 xl:text-5xl">HOW WE COLLABORATE</h1>
+<p className="text-center text-1xl lg:text-2xl mt-10% xl:text-3xl">We are a united force of individual creators, startup champions, UI/UX designers, product designers, <br /> front-end and back-end developers, graphic artists, product photographers, and commercial videographers. <br/>Our collaborative spirit knows no bounds as we work harmoniously to transform ideas into impactful <br/>solutions for our valued clients, whether they’re solo creators or innovative startups</p>
+
+
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 my-10">
   <div className="flex justify-center">
     <div className="bg-white  border shadow-md max-w-xs md:max-w-none overflow-hidden">
       <img className="h-36 md:h-56 lg:h-60 w-full object-contain" src={together} alt="" />
       <div className="p-3">
-        <h3 className="font-semibold text-lg sm:text-xl md:text-2xl leading-6 text-gray-700 my-2">
+        <h3 className="font-semibold text-lg sm:text-xl md:text-2xl leading-6 text-gray-700 my-2 xl:text-5xl">
           TOGETHER
         </h3>
-        <p className="paragraph-normal text-gray-600">
+        <p className="paragraph-normal text-gray-600 xl:text-2xl">
           Impact can only be made together. We love working together with clients, partners, and each other as a team.
         </p>
       </div>
@@ -206,10 +240,10 @@ const Hero = () => {
     <div className="bg-white  border shadow-md max-w-xs md:max-w-none overflow-hidden">
       <img className="h-36 md:h-56 lg:h-60 w-full object-contain" src={comm} alt="" />
       <div className="p-3 ">
-        <h3 className="font-semibold text-lg sm:text-xl md:text-2xl leading-6 text-gray-700 my-2">
+        <h3 className="font-semibold text-lg sm:text-xl md:text-2xl leading-6 text-gray-700 my-2 xl:text-5xl">
           COMMUNICATION
         </h3>
-        <p className="paragraph-normal text-gray-600">
+        <p className="paragraph-normal text-gray-600 xl:text-2xl">
           We will introduce you to our workflow, as well as our way of creating the complete solution. 
           We focus on all things, and everything matters to us.
         </p>
@@ -221,10 +255,10 @@ const Hero = () => {
     <div className="bg-white border shadow-md max-w-xs md:max-w-none overflow-hidden">
       <img className="h-36 md:h-56 lg:h-60 w-full object-contain" src={lab} alt="" />
       <div className="p-3">
-        <h3 className="font-semibold text-lg sm:text-xl md:text-2xl leading-6 text-gray-700 my-2">
+        <h3 className="font-semibold text-lg sm:text-xl md:text-2xl leading-6 text-gray-700 my-2 xl:text-5xl">
           SIDE GIGS DESIGN LABS
         </h3>
-        <p className="paragraph-normal text-gray-600">
+        <p className="paragraph-normal text-gray-600 xl:text-3xl">
           Your Freelance Hub for Affordable and Efficient Startup Solutions, Bridging Talent and Business Innovation.
         </p>
       </div>
@@ -239,10 +273,10 @@ const Hero = () => {
       <div className="w-[70%] md:w-1/2  p-10  mb-4 md:mb-0">
         {/* Text on the left */}
         <div>
-          <h1 className="text-3xl font-semibold text-black mb-4">Let’s get started - <br />
+          <h1 className="text-3xl font-semibold text-black mb-4 xl:text-5xl">Let’s get started - <br />
              Tell us about your project <br />
              and goals.</h1>
-          <p className="text-black text-2xl">
+          <p className="text-black text-2xl xl:text-3xl">
           Share your details and we’ll get in contact  <br />with you and discuss your project over an initial 30-minute discovery call.
           </p>
         </div>
@@ -250,18 +284,18 @@ const Hero = () => {
       <div className="w-full md:w-1/2">
         {/* Contact form on the right with a border */}
         <form className="bg-white p-10  shadow-lg w-[70%] mx-[15%] mb-10">
-          <h2 className="text-2xl font-semibold text-blue-800 mb-4">Get in Touch</h2>
-          <h2 className="text-1xl font-semibold text-blue-800 mb-4">Our friendly team would love to hear from you.</h2>
+          <h2 className="text-2xl font-semibold text-blue-800 mb-4 xl:text-5xl">Get in Touch</h2>
+          <h2 className="text-1xl font-semibold text-blue-800 mb-4 xl:text-3xl">Our friendly team would love to hear from you.</h2>
           <div className="mb-2">
-            <label htmlFor="name" className="text-gray-800">Name:</label>
+            <label htmlFor="name" className="text-gray-800 xl:text-2xl">Name:</label>
             <input type="text" id="name" name="name" className="border p-2 w-full" />
           </div>
           <div className="mb-2">
-            <label htmlFor="email" className="text-gray-800">Email:</label>
+            <label htmlFor="email" className="text-gray-800 xl:text-2xl">Email:</label>
             <input type="email" id="email" name="email" className="border p-2 w-full" />
           </div>
           <div className="mb-2">
-            <label htmlFor="contact" className="text-gray-800">Contact:</label>
+            <label htmlFor="contact" className="text-gray-800 xl:text-2xl">Contact:</label>
             <input type="number" id="contact" name="contact" className="border p-2 w-full" />
           </div>
           

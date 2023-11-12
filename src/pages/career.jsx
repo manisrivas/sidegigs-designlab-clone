@@ -6,25 +6,24 @@ function Career() {
   return (
     
    
-      <div className="flex flex-col md:flex-row justify-center items-center p-4 bg-blue-100">
-      <div className="w-[100%] md:w-1/2  p-10  mb-4 md:mb-0">
+      <div className="flex flex-col md:flex-row justify-center items-center pb-20 p-4 bg-blue-100">
+      <div className="w-[100%] md:w-1/2  p-10   mb-4 md:mb-20">
         {/* Text on the left */}
         <div>
           
-            <p className='mt-2 mb-4 text-1xl mb-5'> We're eager to learn what inspires you to collaborate <br/> and the special skills you bring to our projects. Tell us more about yourself <br/> and how you can make a difference!</p>
-          <p className="text-black text-2xl mt-5 mb-4 ">Upload Your CV
+            <p className='mt-2 mb-4 text-1xl mb-5 xl:text-3xl'> We're eager to learn what inspires you to collaborate <br/> and the special skills you bring to our projects. Tell us more about yourself <br/> and how you can make a difference!</p>
+          <p className="text-black text-2xl mt-5 mb-4 xl:text-2xl">Upload Your CV
           </p> <br/>
-          <p className="text-black text-2xl mt-2 mb-4 ">Find Suitable Job
+          <p className="text-black text-2xl mt-2 mb-4 xl:text-2xl">Find Suitable Job
           </p><br/>
-          <p className="text-black text-2xl mt-2 mb-4 ">Apply Job
+          <p className="text-black text-2xl mt-2 mb-4 xl:text-2xl">Apply Job
           </p>
         </div>
       </div>
-      <div className="w-full md:w-1/2 relative">
-      <div className="w-full md:w-1/2 lg:w-[35vw] p-6" style={{backgroundImage: `url(${formbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 'auto', maxWidth: '600px'}}>
-
+      <div className="w-full md:w-1/2 relative mt-5">
+      <div className="w-full md:w-1/2 md:w-[35vw] lg:w-[35vw] p-6" style={{backgroundImage: `url(${formbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 'auto', maxWidth: '35vw'}}>
   {/* Contact form on the right with a border */}
-  <form className="bg-white p-4 md:p-10 shadow-lg w-full md:w-[30vw] mt-4 md:mt-[5vh] md:ml-4 mb-4 md:mb-10 relative z-10">
+  <form className="bg-white p-4 md:p-10 shadow-lg w-full md:w-[30vw] mt-4 md:mt-[5vh] ml-[3%] mb-4 md:mb-10 relative z-10">
   <div className="mb-2">
     <label htmlFor="name" className="text-gray-800">Name:</label>
     <input type="text" id="name" name="name" className="border p-2 w-full" />

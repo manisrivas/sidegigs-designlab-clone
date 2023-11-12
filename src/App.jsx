@@ -17,6 +17,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => (
 
+<div className="relative min-h-screen">
 
   <Router>
   
@@ -39,14 +40,15 @@ const App = () => (
 
           
         </Routes>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter} `}>
+      <div className={`${styles.boxWidth} `}>
         
         <Footer />
       </div>
     </div>
   
   </Router>
+</div>
 );
 
 export default App;

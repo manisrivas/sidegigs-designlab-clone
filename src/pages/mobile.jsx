@@ -12,17 +12,17 @@ function Mobile() {
         <div>
           <h1 className="text-3xl font-semibold text-black mb-4">Let’s Talk
             </h1>
-            <p className='mt-2 mb-4 text-2xl'> Let’s get started with your Mobile App development journey!<br/> Please continue by filling out the form</p>
-          <p className="text-black text-1xl">
+            <p className='mt-2 mb-4 text-2xl xl:text-3xl'> Let’s get started with your Mobile App Development journey!<br/> Please continue by filling out the form</p>
+          <p className="text-black text-1xl xl:text-2xl">
           Share your details and we’ll get in contact  <br />with you and discuss your project over an initial 30-minute discovery call.
           </p>
         </div>
       </div>
       <div className="w-full md:w-1/2 relative">
-      <div className="w-full md:w-1/2 lg:w-[35vw] p-6" style={{backgroundImage: `url(${formbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 'auto', maxWidth: '600px'}}>
+      <div className="w-full md:w-1/2 md:w-[35vw] lg:w-[35vw] p-6" style={{backgroundImage: `url(${formbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 'auto', maxWidth: '35vw'}}>
 
   {/* Contact form on the right with a border */}
-  <form className="bg-white p-4 md:p-10 shadow-lg w-full md:w-[30vw] mt-4 md:mt-[5vh] md:ml-4 mb-4 md:mb-10 relative z-10">
+  <form className="bg-white p-4 md:p-10 shadow-lg w-full md:w-[30vw] mt-4 md:mt-[5vh] md:mx-[3%] mb-4 md:mb-10 relative z-10">
   <div className="mb-2">
     <label htmlFor="name" className="text-gray-800">Name:</label>
     <input type="text" id="name" name="name" className="border p-2 w-full" />
